@@ -21,7 +21,7 @@
                     <a href="#" class="all" id="movies">Music</a>
                     <a href="#" class="all" id="login">Login</a>
                     <a href="#" class="all" id="signup">Signup</a>
-                <img id="menu" src="../images/menu.png">
+                <img id="menu" src="../images/meno.png">
             </div>
             
         </nav>
@@ -30,7 +30,7 @@
             <a href="#"  id="books">Books</a>
             <a href="#"  id="music">Music</a>
             <a href="#"  id="login_mob">Login</a>
-            <a href="#" id="signup">Signup</a>
+            <a href="#" id="signup_mob">Signup</a>
 
         </div>
     </header>
@@ -38,12 +38,29 @@
             <div class="login" id="loginpage">
                 <h2>Login to Theirlist</h2>
                 <img id="closee" class="close" src="../images/close.png" >
+                <form class="logform" id="logform">
                 <input class="info" type="email" placeholder= "Enter your email address" style="font-family: cursive"/>
                 <input class="info" type ="password" placeholder= "Enter your password" style="font-family: cursive"/>
                 <div><input class="check" type="checkbox"/><p class="remember">Remember me ?</p></div>
                 <button type="submit">Login</button>
-                <p class="remember">Already have an account ? <a href="#" style="color:darkmagenta">Signup</a> instead?</p>
-    
+                </form>
+                <p class="remember">Dont have an account ? <a href="#" style="color:darkmagenta">Signup</a> instead?</p>
+            </div>
+            <!-- Signup window -->
+            <div class="signup" id="signuppage">
+                <h2>Join Theirlist</h2>
+                <img id="closeer" class="close" src="../images/close.png" >
+                <form class="sinform" id="sinform"></form>
+                <input class="info" type ="text" placeholder= "Username" style="font-family: cursive"/>
+                <input class="info" type="email" placeholder= "Enter your email address" style="font-family: cursive"/>
+                <input class="info" type="email" placeholder= "Enter your email address" style="font-family: cursive"/>
+                <input class="info" type ="password" placeholder= "Enter your password" style="font-family: cursive"/>
+                <input class="info" type="password" placeholder= "Confirm password" style="font-family: cursive"/>
+
+                <div><input class="check" type="checkbox"/><p class="remember">Remember me ?</p></div>
+                <button type="submit">Join</button>
+                </form>
+                <p class="remember">Already have an account ? <a href="#" style="color:darkmagenta">Login</a> instead?</p>
             </div>
 
     <!-- Body contents -->
@@ -51,30 +68,33 @@
         <div class="contain-sec" id="contain-sec">
             <div class="elements">
                 <div class="thumb"><img src="..//images/poster.jpg" width="100px"></div>
-                <div class="Title"><h3>Here lies larry</h3></div>
+                <div class="Title"><h3 class="tit">Here lies larry</h3></div>
                 <div class="Author"><p>Author : </p></div>
                 <div class="Genre"><p>Genre : </p></div>
             </div>
             <div class="elements">
                 <div class="thumb"><img src="..//images/poster.jpg" width="100px"></div>
-                <div class="Title"><h3>Here lies larry</h3></div>
+                <div class="title"><h3 class="tit">Here lies larry</h3></div>
                 <div class="Author"><p>Author : </p></div>
                 <div class="Genre"><p>Genre : </p></div>
             </div>
             <div class="elements">
                 <div class="thumb"><img src="..//images/poster.jpg" width="100px"></div>
-                <div class="Title"><h3>Here lies larry</h3></div>
+                <div class="Title"><h3 class="tit">Here lies larry</h3></div>
                 <div class="Author"><p>Author : </p></div>
                 <div class="Genre"><p>Genre : </p></div>
             </div>
             <div class="elements">
                 <div class="thumb"><img src="..//images/poster.jpg" width="100px"></div>
-                <div class="Title"><h3>Here lies larry</h3></div>
+                <div class="Title"><h3 class="tit">Here lies larry</h3></div>
                 <div class="Author"><p>Author : </p></div>
                 <div class="Genre"><p>Genre : </p></div>
             </div>
         </div>
     </section>
+    <doc>
+        <div class="doc-bar"></div>
+    </doc>
 </body>
     <script src="../js/script.js"></script>
 </html>
