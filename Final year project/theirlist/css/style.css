@@ -102,6 +102,8 @@ a {
     z-index: 40;
     flex-direction: column;
     padding-top: 60px;
+    border-bottom-left-radius: 8px;
+    border-bottom-right-radius: 8px;
 }
 
 .menuop a {
