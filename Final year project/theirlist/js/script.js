@@ -23,18 +23,42 @@ function openlog() {
   }
 
 
+const signup = document.getElementById("signuppage");
+const sign_btn = document.getElementById("signup");
+const sign_mob = document.getElementById("signup_mob");
+const closeer = document.getElementById("closeer");
+sign_btn.addEventListener("click",opensin);
+sign_mob.addEventListener("click",opensin);
+closeer.addEventListener("click",closesin);
+
+function closesin() {
+    signup.style.display = "none";
+}
+
+function opensin() {
+    if (signup.style.display === "none") {
+      signup.style.display = "flex";
+    } else {
+      signup.style.display = "none";
+    }
+  }
+
+
+
+
 
 function fix(){
     if(ham.style.marginTop === "-300px")
     {
         ham.style.marginTop = "0px";
         ham.style.transition = "600ms ease all";
-        menu.src = "../images/menu.png";
+        menu.src = "../images/menc.png";
     }
     else
     {
         ham.style.marginTop = "-300px";
         ham.style.transition = "600ms ease all";
+        menu.src = "../images/meno.png";
     }
 
 }
